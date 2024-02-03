@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset ="utf-8"   />
+    <meta name="description" content="How to be programer "/>
+    <title> second site  </title>
+    <link rel=" " href=""     >
+   
+
+  </head>  
+  <body>
+  <!-- 
+    formating 
+
+    b -> bold
+    strong -> bold -> important text
+    i -> italic
+    u -> underline
+    mark -> mark text
+    small -> small text
+    del -> delleted text
+    span -> وهي عباره عن اني احطها بداخلها الكلمه المراد تعديل التنسيق بتاعها 
+    br -> new line 
+    hr -> خط افقي
+
+   -->
+
+   <h1> <b>Hello world</b></h1>
+   <h3> <b>Hello world</b></h3>
+   <p> write prgraph here </p>
+   <p> <mark>eslam sameh</mark> </p>
+   <q> my sname is eslam</q>
+   <blockquote>my sname is eslam</blockquote>
+   <p>السلام 2 website</p>
+   <p><bdi>السلام</bdi>2 website</p>
+   <pre>
+    <!-- بتحافظ ع المسافات على عكس ال p العاديه -->
+    eslam sameh
+    eslam
+   </pre>
+
+
+   <a href="https//:www.facebook.com" target="_blank" >facebook</a>
+   <a href="https//:www.google.com" title="go to google" >google</a>
+   <img src="3.gif" alt="gif">
+   
+     <!-- 
+      ul -> unorderd list
+      li -> list item 
+      ol -> ordered list
+
+     -->
+     <ul>
+      <li>eng</li>
+      <li>arabic</li>
+      <li>
+        math
+        <ul>
+
+          <li> nested list</li>
+        </ul>
+
+      </li>
+      
+     </ul>
+     <!-- ///////////////////// -->
+
+     <!-- atrbuite of ol 
+
+      revsresed -> reverse order (ol)
+      start -> start number from n
+      type -> type of order
+     -->
+     <ol start="2">
+      
+      <li>eng</li>
+      <li>arabic</li>
+
+     </ol>
+
+     <!-- ///////////////////// -->
+     <!-- 
+      dl -> list
+      dt -> term
+      dd -> description of term
+     -->
+     <dl>
+      <dt>html</dt>
+      <dd> is hyber text markup lang</dd>
+
+     </dl>
+
+     <!-- \\\\\\\\\\\\\\\\\table //////////// -->
+     <!-- 
+      thead  
+      tbody 
+      tfoot 
+      tr -> table row
+     -->
+     <table>
+      <thead>
+        <tr> <!-- صف 1-->
+          <td>first</td> <!-- عمود 1-->
+          <td>second</td><!-- عمود 2-->
+          <td>mark</td><!-- عمود 3-->
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>samer</td>
+          <td>mohamed</td>
+          <td>30</td>
+
+        </tr>
+        <tr>
+          <td>eslam</td>
+          <td>sameh</td>
+          <td>50</td>
+
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>total</td>
+          <td>50</td>
+      </tfoot>
+
+
+     </table>
+
+     <!-- //////////////// div   ////////  -->
+      <!-- 
+       هو عباره عن container اقدر اتحكم بيه زي ما انا عايزبعيدا عن الباقي شبه الclass
+
+      -->
+     <!-- semantic  -->
+     <!--  
+      is a Div but has name
+     -->
+     <header>
+      <!-- header of website -->
+     </header>
+     <nav>
+      <!-- link on header  -->
+     </nav>
+     <section>
+      <!-- is a body of website -->
+      <section>
+        <!-- right body of website -->
+      </section>
+      <aside>
+        <!-- left body of website -->
+      </aside>
+
+     </section>
+
+     <!-- audio -->
+     <!--
+      attribute
+
+      controls
+      loop
+      muted
+
+      -->
+      <audio controls loop muted autoplay >
+
+        <source src="مكان الصوت " type=" نوع الصوت audio/mpeg">
+        <!-- هتلاقي انوع الصوت ف موقع mime -->
+        <!-- وممكن تحت كذا امتداد للصوت من انواع مختلفه لتدعيم الموقع اذا لم يدعم نوع معين  -->
+
+      </audio>
+
+      <video controls loop muted autoplay poster="صوره بتتحط لحد ما الفيديو يشتغل">
+
+        <source src="مكان الفيديو.mb4" type=" نوع الصوت video/mb4">
+        <!-- هتلاقي انوع الصوت ف موقع mime -->
+ 
+      </video>
+        <!-- ////////////////////////////////////////////////// -->
+
+        <!-- form,input,label -->
+        <!-- attrbuite of input 
+
+        required -> بتعطيك مسدج انك لازم تملاء 
+        placeholder=" " -> نعني انه بتقول للمستخدم يكتب اي جوه ال input
+        name ->اسم نعطيه لل input لأرساله للسرفر
+        readonly -> بتقرأ فقط ولا يمكن التعديل عليهولكن يرسل مع البيانات
+        disabled ->لايتم ارساله مع البيانات ولايتم التعديل عليه
+        autofocus -> انه المستخدم اول مايفتح الصفحه علامة ال | تتحدد ع المكان المراد
+
+        id="win" -> لربط الlabel for="win"ب ال  input
+
+       -->
+
+       <!-- type of input 
+        hidden -> تخفي ال input
+        color -> بتعمل input الوان
+        range ->
+        reset -> مسح بيانات 
+        number -> ارقام وممكن نزودها
+        وممكن نديها اتربيوت max min 
+
+        radio ->تحديد  
+
+       -->
+
+        <!-- attrbuite of form 
+        
+          action ="link.php/jaj"-> بيبعت البيانات اللي دخاتها لمكان ما
+         method="Post/Get" -> طريقة لبعت البيانات 
+         post -> تخغي البيانات من المستخدم ف اللينك (query)
+         method -> تظهر البيانات اللتي ارسالتها ف url من فوق  
+         target="_blank" ->بيفتح صفحه تانيه
+       -->
+
+
+
+       <form action="" method="get">         
+         <div>
+         <label > username</label>
+         <input type="text" required placeholder="username" name="usr" readonly value="eslam">
+
+         </div>
+        
+         <div>
+          
+         <label >password</label>
+         <input type="password" name="pass" autofocus minlength="5" maxlength="9">
+  
+         </div>
+         <hr>
+         <div>
+          
+            <label >email</label>
+            <input type="Email" value="es@mail.com">
+    
+          </div>
+          <div>
+          
+            <label >range</label>
+            <input type="range" value="0" step="10" max="100" min="0">
+      
+          </div>
+          <hr>
+          <div>
+          
+            <label >color</label>
+            <input type="color" >
+        
+          </div>
+          <div>
+          
+            <label >number</label>
+            <input type="number" value="5" step="5" max="30" min="5">
+          
+          </div>
+          <hr>
+          <div >
+          
+            <label for="win">windows</label>
+            <input type="radio" name="os" value="windows" id="win" >
+            <br>
+            <label for="lin">linux</label>
+            <input type="radio" name="os" value="linux" id="lin"  >
+            <br>
+            <label for="mac">Mac</label>
+            <input type="radio" name="os" value="Mac"id="mac">
+          
+          </div>
+          <hr>
+          <div >
+          
+            <label for="win2">windows</label>
+            <input type="checkbox" name="os" value="windows" id="win2" >
+            <br>
+            <label for="lin2">linux</label>
+            <input type="checkbox" name="os" value="linux" id="lin2"  >
+            <br>
+            <label for="mac2">Mac</label>
+            <input type="checkbox" name="os" value="Mac"id="mac2">
+          
+          </div>
+          <hr>
+          <div>
+            <label >upload</label>
+            <input type="file">
+            <br>
+            <label >search</label>
+            <input type="search">
+            <br>
+            <label >url</label>
+            <input type="url">
+            <br>
+            <label >udate</label>
+            <input type="date">
+            <br>
+          </div>
+          <hr>
+          <div>
+            <input list="programming" name="prog" >
+            <datalist id="programming">
+              <option value="os"></option>
+              <option value="is"></option>
+              <option value="cs"></option>
+              
+            </datalist>
+          
+          </div>
+
+          <hr>
+          <label >submit</label>
+          <input type="submit" value="save">
+          <label >reset</label>
+          <input type="reset" value="reset">
+
+
+        </form>
+        <hr>
+        <!-- 
+          select -> عمل قايمة 
+          multuble -> لأختيار اكتر من اختيار
+         -->
+
+        <label for="bo" > choose book</label>
+        <select name="books" id="bo"  multiple > book1 
+          <optgroup label="group1">
+            <option value="1">b1</option>
+            <option value="2">b2</option>
+            <option value="3">b3</option>
+            <option value="4">b4</option>
+          
+          </optgroup >
+          <optgroup label="group2">
+            <option value="5">b1</option>
+            <option value="6">b2</option>
+            <option value="7">b3</option>
+            <option value="8">b4</option>
+          
+          </optgroup>
+        </select>
+        <br>
+        <textarea name="textarea"  cols="30" rows="10" placeholder="write here">
+        </textarea>
+
+  </body>
+</html>
